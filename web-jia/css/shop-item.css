@@ -1,0 +1,157 @@
+/*!
+ * Start Bootstrap - Shop Item (https://startbootstrap.com/template/shop-item)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-item/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+
+.body1 {
+  background-color: #ffbd9a;
+}
+
+.body2 {
+  background-color: #f9f2e8;
+}
+
+.list-group-item {
+	background-color: #ffffff;
+	color:#321d10;
+}
+
+.list-group-item.active{
+	z-index:2;
+	color:#fff;
+	background-color:#ffbd9a;
+	border-color:#ffbd9a;
+}
+
+.btn {
+	background-color: #ffffff;
+	border: 2px solid #ffbf9a;
+	padding: 8px 60px;
+    color: #321d10;
+}
+
+.btn:hover {
+  background-color: #ffbf9a;
+  border: 2px solid #ffbf9a;
+}
+
+.btn:focus {
+  background-color: #ffbf9a;
+  border: 2px solid #ffbf9a;
+}
+
+.card-header {
+	background-color: #bbc4b5;
+	color: #321d10;
+}
+
+
+.newpost {
+	position: relative;
+	background-color: #343a40;
+	background: url("http://placehold.it/900x400") no-repeat center center;
+	background-size: cover;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+
+/*order detail*/
+.detail {
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.detail .row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.detail .container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+a {
+  color: #2196F3;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+.checkout {
+	background-color: #ffbf9a;
+	padding: 8px 60px;
+    color: #321d10;
+    border: 2px solid #ffffff;
+}
+
+.checkout:hover {
+	background-color: #ffffff;
+	
+}
+

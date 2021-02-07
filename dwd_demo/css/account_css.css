@@ -1,0 +1,98 @@
+nav{
+    background: #321D10;
+    height: 80px;
+    width: 100%;
+}
+label.navbar-brand{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: normal;
+}
+nav ul{
+    float: right;
+    margin-right: 20px ;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;  
+    text-transform: uppercase;
+    text-decoration: none;
+}
+a.active,a:hover{
+    color: #fff;
+    border-radius: 45px;
+    background: #000000;
+    transition: .5s;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: #f9f7e8;
+  }
+  .signup{
+      width: 500px;
+      padding: 20px;
+      text-align: center;
+      background: #FFBD9A;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      overflow: hidden;
+  }
+  .signup h1{
+      margin-top: 50px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color:#fff;
+      font-size: 40px;
+  }
+  .signup input{
+      display: block;
+      width: 100%;
+      padding: 0 16px;
+      height: 44px;
+      text-align: center;
+      box-sizing: border-box;
+      outline: none;
+      border: none;
+      
+  }
+  .inp{
+      margin: 20px 0;
+      background: #f9f7e8;
+      border-radius: 6px;
+  }
+  
+  .inp_btn{
+      
+      margin-top: 60px;
+      margin-bottom: 20px;
+      background: #fa7934;
+      color: #fff;
+      border-radius: 45px;
+      cursor: pointer;
+      transition: 0.5s;
+
+  }
+  .inp_btn :hover{
+       transform: scale(0.8);
+
+  }
+  .signup a{
+      text-decoration: none;
+      color: #fff;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 15px;
+      padding: 10px;
+      transition: 0.8s;
+  }
+  
